@@ -24,3 +24,7 @@ Create a simple test asserter:
 Test JS:
   * https://codesandbox.io/s/qlvm92z92j
   * https://codesandbox.io/s/9zyn84lomp
+  
+Test React:
+ * https://codesandbox.io/s/v3vnn457ol
+ * https://codesandbox.io/s/jj3qm99n4v
