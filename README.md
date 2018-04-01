@@ -8,6 +8,7 @@
 * Test JS
 * Why react changed the idea of test
 * Install Enzyme
+* Configure Enzyme
 * Go over how to check for number of elements and stuff like that with enzyme
 * Check state and props with enzyme
 * Snapshot testing and the difference between shallow, mount and render
