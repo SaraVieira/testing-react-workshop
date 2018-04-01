@@ -19,6 +19,7 @@
 ### Online Stuff:
 
 Create a simple test asserter:
+  * https://jsbin.com/kijisahasa/1/edit?js,console
   * https://jsbin.com/hihowaqeme/edit?js,console
   
 Test JS:
