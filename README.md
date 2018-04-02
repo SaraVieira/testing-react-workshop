@@ -25,7 +25,14 @@ Create a simple test asserter:
 Test JS:
   * https://codesandbox.io/s/qlvm92z92j
   * https://codesandbox.io/s/9zyn84lomp
+  * Exercise: https://codesandbox.io/s/z3w1k7nx94
   
 Test React:
  * https://codesandbox.io/s/v3vnn457ol
  * https://codesandbox.io/s/jj3qm99n4v
+ * Exercise: https://codesandbox.io/s/7wk640x9zq
+ 
+ Test react with state and simulate clicks:
+  * https://codesandbox.io/s/34lm7yq87m
+  * https://codesandbox.io/s/2323v4vpwn
+  * Exercise: https://codesandbox.io/s/k9y4jkxo95
