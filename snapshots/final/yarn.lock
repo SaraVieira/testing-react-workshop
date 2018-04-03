@@ -2495,6 +2495,12 @@ eslint-plugin-flowtype@2.39.1:
   dependencies:
     lodash "^4.15.0"
 
+eslint-plugin-flowtype@^2.30.4:
+  version "2.46.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.46.1.tgz#c4f81d580cd89c82bc3a85a1ccf4ae3a915143a4"
+  dependencies:
+    lodash "^4.15.0"
+
 eslint-plugin-import@2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.8.0.tgz#fa1b6ef31fcb3c501c09859c1b86f1fc5b986894"
@@ -4330,6 +4336,13 @@ jest-mock@^20.0.3:
 jest-mock@^22.4.3:
   version "22.4.3"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-22.4.3.tgz#f63ba2f07a1511772cdc7979733397df770aabc7"
+
+jest-nyan-reporter@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/jest-nyan-reporter/-/jest-nyan-reporter-1.0.2.tgz#c061e8cbe793d1d712074e675a26133ea41d3672"
+  dependencies:
+    eslint-plugin-flowtype "^2.30.4"
+    supports-color "^3.2.3"
 
 jest-regex-util@^20.0.3:
   version "20.0.3"

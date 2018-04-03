@@ -25,6 +25,14 @@ describe("<Movies />", () => {
         const wrapper = render(<Movies />);
         expect(wrapper).toMatchSnapshot();
     });
+
+    it("change state and check it", () => {
+        const newMovies = movies.concat(newMovie);
+        const wrapper = shallow(<Movies />);
+        wrapper.setState({ movies: null });
+        expect(wrapper).toMatchSnapshot();
+    });
+
     it("change state and check it", () => {
         const newMovies = movies.concat(newMovie);
         const wrapper = shallow(<Movies />);
