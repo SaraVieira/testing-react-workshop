@@ -5,52 +5,23 @@
   "dependencies": {
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
-    "react-scripts": "1.1.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4",
     "tachyons": "^4.9.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --env=jsdom",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "add": "^2.0.6",
-    "babel-jest": "^22.4.3",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "enzyme-to-json": "^3.3.3",
-    "jest": "^22.4.3",
-    "jest-nyan-reporter": "^1.0.2",
-    "yarn": "^1.5.1"
+    "enzyme-to-json": "^3.3.3"
   },
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
-    ],
-    "reporters": [
-      [
-        "jest-nyan-reporter",
-        {
-          "suppressErrorReporter": false
-        }
-      ]
-    ],
-    "collectCoverage": true,
-    "coveragePathIgnorePatterns": [
-      "<rootDir>/build/",
-      "<rootDir>/src/movies.js",
-      "<rootDir>/node_modules/"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 80,
-        "functions": 80,
-        "lines": 80,
-        "statements": -10
-      }
-    }
+    ]
   }
 }
