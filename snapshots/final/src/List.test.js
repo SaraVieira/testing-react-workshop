@@ -1,24 +1,25 @@
 /**
  * @jest-environment node
  */
-
 import React from "react";
 import { shallow, render } from "enzyme";
 
 import Movies from "./List";
 import movies from "./movies";
 
-import './setupTests';
 
 const newMovie = {
     name: "Sharknado 4 - The Forth Awakens",
     poster: "https://store.hmv.com/HMVStore/media/product/343049/01-343049.jpg"
 };
 
+let wrapper;
+beforeEach(() => {
+    wrapper = shallow(<Movies />);
+});
 
 describe("<Movies />", () => {
     it("shallow", () => {
-        const wrapper = shallow(<Movies />);
         expect(wrapper).toMatchSnapshot();
     });
     it("render", () => {
@@ -28,14 +29,12 @@ describe("<Movies />", () => {
 
     it("change state and check it", () => {
         const newMovies = movies.concat(newMovie);
-        const wrapper = shallow(<Movies />);
         wrapper.setState({ movies: null });
         expect(wrapper).toMatchSnapshot();
     });
 
     it("change state and check it", () => {
         const newMovies = movies.concat(newMovie);
-        const wrapper = shallow(<Movies />);
         wrapper.setState({ movies: newMovies });
         expect(wrapper.state().movies).toEqual(newMovies);
         expect(wrapper.find(".movie")).toHaveLength(7);
@@ -43,7 +42,6 @@ describe("<Movies />", () => {
     });
 
     it("remove movie", () => {
-        const wrapper = shallow(<Movies />);
         const firstMovie = wrapper
             .find(".movie")
             .first()
