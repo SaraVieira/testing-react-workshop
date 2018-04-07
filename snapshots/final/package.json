@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --collectCoverageFrom=!src/movies.js --collectCoverageFrom=!src/index.js --collectCoverageFrom=src/**/*.js",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -22,6 +22,11 @@
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "!src/movies.js",
+      "!src/index.js",
+      "src/**/*.js"
     ],
     "coverageThreshold": {
       "global": {
