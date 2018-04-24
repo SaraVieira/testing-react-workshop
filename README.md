@@ -18,8 +18,8 @@
 ### Online Stuff:
 
 Create a simple test asserter:
-  * https://jsbin.com/kijisahasa/1/edit?js,console
-  * https://jsbin.com/hihowaqeme/edit?js,console
+  * https://codesandbox.io/s/9ln6xkr62w
+  * https://codesandbox.io/s/504qo8vpln
 
 Test JS:
   * https://codesandbox.io/s/qlvm92z92j
